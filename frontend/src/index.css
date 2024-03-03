@@ -1,0 +1,46 @@
+.header {
+  background-color: #050820;
+  color: #FFEDA3;
+  max-width: 100%;
+  padding: 50px;
+  h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    text-align : center;
+  }
+
+}
+
+.ChatInput {
+  width: 95%;
+  display: block;
+  margin: auto;
+
+  input {
+    padding: 10px;
+    margin: 0;
+    background-color:#F4CCA4;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+    width: 98%;
+    box-shadow: 0 5px 15px -5px rgba(0,0,0,.1);
+  }
+}
+
+.Message {
+  display: block;
+  background-color: #B2B1B9;
+  margin: 10px auto;
+  box-shadow: 0 5px 15px -5px rgba(0,0,0,.2);
+  padding: 10px 20px;
+  border-radius: 5px;
+  clear:both;
+
+  &.me {
+    color: rgb(31, 28, 70);
+    float: right;
+  }
+}
